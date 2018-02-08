@@ -12,14 +12,14 @@ body{
 h1{
   font-family: Helvetica;
   color: #879689;
-  font-weight: bold;
+  font-weight: initial;
   font-size: 35px;
 }
 h2 {
   font-family: Helvetica;
   color: #605D6A;
   font-weight: lighter;
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 30px;
   letter-spacing: 3px;
 }
@@ -108,6 +108,12 @@ li {
     border: 1px solid transparent;
     border-radius: 4px;
 
+}
+
+.white_icon {
+  position: relative;
+  right: 65px;
+  bottom: 20px;
 }
 
 .icon_white{
